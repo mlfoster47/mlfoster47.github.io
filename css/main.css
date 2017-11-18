@@ -3,6 +3,10 @@ body {
     margin-left: 90px;
    /* width: 90%;*/
    width: auto;
+   -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
