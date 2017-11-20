@@ -70,7 +70,7 @@ footer {
 }
 */
 
-.slider {
+/*.slider {
   width: 500px;
   height: 500px;
   overflow-x: scroll;
@@ -82,9 +82,9 @@ footer {
 }
 .holder {
   width: 500%;
-}
+}*/
 
-#slide-0 {
+/*#slide-0 {
   background-image: url(http://farm8.staticflickr.com/7347/8731666710_34d07e709e_z.jpg);
 }
 #slide-1 {
@@ -99,7 +99,7 @@ footer {
 }
 #slide-4 {
      background-image: url(http://farm8.staticflickr.com/7382/8732044638_9337082fc6_z.jpg);
- }
+ }*/
 
 
 /*.slide:before {
@@ -112,7 +112,7 @@ footer {
   background: linear-gradient(transparent, black);
 }
 */
-.slider-nav {
+/*.slider-nav {
   text-align: center;
   margin: 10px 0 0 0;
 }
@@ -126,7 +126,7 @@ footer {
   border-radius: 50%;
 }
 .slider-nav a.active {
-  background: #999;
+  background: #999;*/
 }
  /* <!--Writing Items Overlay -->*/
     .writing-item {
