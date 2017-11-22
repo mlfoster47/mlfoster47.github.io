@@ -42,7 +42,7 @@ a {
     font-weight: bold;
 }
 a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     text-decoration-color: blue;
    
 }
@@ -170,4 +170,11 @@ footer {
         color: white;
         font-size: 16px;
         padding: 16px 32px;
+      }
+
+
+    a:hover, nav ul li:hover {
+    background-color: #EEF9F8;
+    }
+
       }
