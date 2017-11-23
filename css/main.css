@@ -24,6 +24,22 @@ body {
 }
 */
 
+.div-left {
+display: inline-block; 
+margin:auto;
+width: 400px;
+
+}
+
+.div-top {
+float:right;
+ /*display: inline-block; */
+ margin:auto;
+ padding-top: 20px;
+ font-size: 20px;
+ width: 600px;
+
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -177,4 +193,14 @@ footer {
     background-color: #EEF9F8;
     }
 
-      }
+    /*Arrow Css*/
+    .fa fa angle-down {
+      text-align: center;
+      align-self: center;
+      margin: auto;
+    }
+  
+  a.button:hover {
+    background-color: white;
+  }
+      
