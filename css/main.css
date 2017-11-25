@@ -32,6 +32,10 @@ position: relative;
 
 }
 
+.container {
+  position: relative;
+}
+
 .div-top {
 float:right;
  /*display: inline-block; */
