@@ -57,6 +57,14 @@ h2 span {
     padding: 3px;
 }
 
+span.blockHeader:hover {
+  color:yellow;
+}
+
+li.bulletInfo:hover {
+  color:#14aeb7;
+}
+
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
