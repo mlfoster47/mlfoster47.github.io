@@ -1,8 +1,8 @@
 body {
-    /*margin: 30px auto;*/
-    margin-left: 90px;
-   /* width: 90%;*/
-   width: auto;
+    margin: 10px auto;
+    margin-left: 20px;
+    width: 95%;
+   /*width: auto;*/
    -webkit-user-select: none;
      -moz-user-select: -moz-none;
       -ms-user-select: none;
@@ -32,9 +32,9 @@ width: 300px;
 
 }
 
-.container {
+/*.container {
   position: absolute;
-}
+}*/
 
 .div-top {
 /*float:right;*/
