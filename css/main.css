@@ -17,6 +17,17 @@ body {
     height: 120px;
     animation: spin 2s linear infinite;
 }
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js{
+  width: 100%;
+  background-color: #3284BF;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 
 /*@keyframes spin {
     0% { transform: rotate(0deg); }
@@ -218,6 +229,7 @@ footer {
 
     a:hover, nav ul li:hover {
     background-color: #C0FCF7;
+
     }
 
     /*Arrow Css*/
