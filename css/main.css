@@ -109,6 +109,7 @@ span.blockHeader:hover {
 }
 
 li.bulletInfo:hover {
+  transition: color .3s ease;
   color:#14aeb7;
 }
 
@@ -133,6 +134,7 @@ a {
 a:hover {
     /*text-decoration: underline;*/
     text-decoration-color: blue;
+    transition: text-decoration-color .25s ease;
    
 }
 h1 {
@@ -155,7 +157,9 @@ footer {
 }
 
 span.interest:hover {
+  transition: font-weight .25s ease;
   font-weight: bold;
+
 }
 
 /*ul.posts { 
@@ -272,7 +276,9 @@ span.interest:hover {
 
 
     a:hover, nav ul li:hover {
-    background-color: #C0FCF7;
+   
+    transition: background-color 0.25s ease;
+     background-color: #C0FCF7;
 
     }
 
