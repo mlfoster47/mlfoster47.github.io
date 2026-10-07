@@ -1,0 +1,28 @@
+/* Simple 12-col grid using CSS Grid with flexbox fallbacks */
+.grid{display:grid}
+.grid-12{grid-template-columns:repeat(12,minmax(0,1fr))}
+.gap-lg{gap:24px}
+.align-center{align-items:center}
+.top-m{margin-top:1rem}
+
+.col{min-width:0}
+.span-12{grid-column:span 12}
+.span-11{grid-column:span 11}
+.span-10{grid-column:span 10}
+.span-9{grid-column:span 9}
+.span-8{grid-column:span 8}
+.span-7{grid-column:span 7}
+.span-6{grid-column:span 6}
+.span-5{grid-column:span 5}
+.span-4{grid-column:span 4}
+.span-3{grid-column:span 3}
+.span-2{grid-column:span 2}
+.span-1{grid-column:span 1}
+
+.text-center{ text-align:center }
+.text-center-md{ text-align:left }
+@media (max-width: 860px){
+  .grid-12{grid-template-columns:repeat(12,minmax(0,1fr))}
+  .span-md-12{grid-column:span 12}
+  .text-center-md{ text-align:center }
+}
